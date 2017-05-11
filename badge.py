@@ -6,6 +6,7 @@ important decisions by flipping a coin.
 
 * The buttons cycle through the images
 * Shaking the badge flips as coin and shows the outcome on the display.
+* Press both buttons scrolls the name of the event on the screen
 
 """
 from microbit import *
@@ -15,6 +16,8 @@ answers = [
     "HEADS",
     "TAILS",
 ]
+
+scroll_message = "MGSIS 2017"
 
 all_images = [Image.HAPPY, Image.SAD, Image.CONFUSED,
               Image.ANGRY, Image.ASLEEP, Image.SURPRISED,
@@ -47,7 +50,7 @@ while True:
     sleep(200)
     while True:
         if button_a.is_pressed() and button_b.is_pressed():
-            current_image = 0
+            display.scroll(scroll_message)
             break
         elif button_a.is_pressed():
             current_image = (num_images + current_image - 1) % num_images
