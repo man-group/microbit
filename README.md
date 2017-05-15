@@ -1,4 +1,4 @@
-![microbit](microbit.jpg)
+![microbit](badge.jpg)
 
 If you have a name badge from the 3rd Annual Man Global Systematic
 Investment Symposium, you can run Python programs on it! It's really a
@@ -61,8 +61,4 @@ the
 
 ## License
 
-micro:bit image is
-under
-[CC-BY-SA license](https://commons.wikimedia.org/wiki/File:BBC_Microbit.jpg).
-
-Everything else is under the MIT license.
+MIT license.
