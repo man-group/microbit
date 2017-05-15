@@ -1,4 +1,9 @@
-# Add your Python code here. E.g.
+""" A simple but fun game for the BBC micro:bit
+
+The game tests the speed of your reactions, it displays an arrow on the screen pointing at the button you must
+press within the time limit, each time you press the correct button the timelimit is reduced. Press the wrong
+button and it is game over. Your score is the number of correct button presses.
+"""
 from microbit import *
 
 import random
