@@ -26,7 +26,7 @@ You will need:
    a web browser.
    
 3. Copy
-   [the example program here](https://raw.githubusercontent.com/manahl/microbit/refactor_readme/badge.py?token=AAEUkJjuVw9dMwFj_Eu4eM5m7Out04lDks5ZC0WwwA%3D%3D) into
+   [the example program here](badge.py) into
    the editor.
    
 4. Click the download button, which looks like this:
